@@ -11,6 +11,8 @@ namespace home.dbhelper
         {
             this._connString = connString;
         }
+
+
         public IDbConnection CreateConnection()
         {
             IDbConnection conn = new MySqlConnection(this._connString);

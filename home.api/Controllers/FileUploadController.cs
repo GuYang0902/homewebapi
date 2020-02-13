@@ -21,7 +21,6 @@ namespace home.api.Controllers
         {
             _hostingEnvironment = hostingEnvironment;
         }
-
         public IActionResult Index()
         {
             return null;
